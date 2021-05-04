@@ -1,0 +1,18 @@
+{
+  "name": "branches",
+  "version": "1.0.0",
+  "main": "sketcb.js",
+  "scripts": {
+    "build": "browserify sketch.js -o bundle.js",
+    "watch": "watchify sketch.js -o bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "browserify": "^17.0.0",
+    "color-convert": "^2.0.1",
+    "p5": "^1.3.1",
+    "watchify": "^4.0.0"
+  }
+}
