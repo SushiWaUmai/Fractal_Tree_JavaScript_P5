@@ -5,3 +5,31 @@ html, body {
 canvas {
   display: block;
 }
+
+
+.slider {
+  width: 400px;
+  -webkit-appearance: none;
+  background: gray;
+  outline: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+  z-index: 1;
+}
+.slider::-webkit-slider-thumb {
+  width: 400px;
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: gray;
+  cursor: pointer;
+  border: 4px solid #333;
+  box-shadow: -1007px 0 0 1000px #00fd0a;
+  z-index: 1;
+}
+
+.slider-holder{
+  text-align: left;
+}
